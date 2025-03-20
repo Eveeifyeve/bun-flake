@@ -1,0 +1,51 @@
+name: 🚀 Feature Request
+description: Suggest an idea, feature or enhancement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting an idea it helps making this flake better, if you want to report this to bun and not this flake [please report over there](https://github.com/oven-sh/bun/issues/new/choose).
+
+  - type: textarea
+    attributes: 
+      label: "What problem would this feature solve?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes: 
+      label: "What is the feature you are proposing to solve the problem?"
+    validations:
+      required: true
+
+  - type: textarea
+    atrributes: 
+      label: "What alternatives have you considered?"
+ 
+  - type: checkboxes
+    attributes:
+      label: "Checklist"
+      options: 
+        - label: "I am sure this is an idea is for this flake and not bun"
+          required: true
+        - label: "I am sure this idea [hasn't been reported already](https://github.com/NixOS/nixpkgs/issues?q=is%3Aopen)"
+          required: true
+        - label: "I am sure this is not a [question/help needed about this flake](https://github.com/eveeifyeve/bun-flake/discussion/)"
+
+  - type: markdown
+    attributes:
+      value: | 
+        # Thankyou for helping subbmit idea to the unoffical bun-flake.
+
+        ---
+
+  - type: textarea
+    attributes:
+      label: "mention maintainers"
+      description: |
+        **Please do not edit this!** 
+
+        This is for mentioning maintainers of this flake
+
+      value: "Maintainers: @eveeifyeve"

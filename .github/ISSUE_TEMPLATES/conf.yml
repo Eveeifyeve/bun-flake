@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🧅 Have an Issue with bun
+    url: https://github.com/oven-sh/bun/issues
+    about: Report bun issues (that have nothing to do with this flake!)
+  - name: 🧅 Ask a question about Bun 
+    url: https://discord.com/invite/CXdq2DP29u
+    about: if you have a question about bun (that has nothing to do with this flake!)
+

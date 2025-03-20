@@ -1,0 +1,12 @@
+name: Flake Check
+on: 
+  pull_request:
+
+jobs: 
+  check:
+    runs-on: ubnutu-linux
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - name: Run check
+        run: nix flake check
