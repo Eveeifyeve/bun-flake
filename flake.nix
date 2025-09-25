@@ -81,7 +81,6 @@
                 clang
                 autoconf
                 icu
-                apple-sdk_15
               ]
               ++ lib.optionals pkgs.stdenv.hostPlatform.isDarwin [
                 pkgs.apple-sdk_15
